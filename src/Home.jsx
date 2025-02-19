@@ -35,27 +35,27 @@ export default function Home() {
       <h2 className="title">Contributers</h2>
       <div className="contributers">
         <div className="contributer">
-          <img className="contributer" src="/public/img/contributers/Christopher Engelbart.jpeg" />
+          <img className="contributer" src="../public/img/contributers/Christopher Engelbart.jpeg" />
           <p>Christopher Engelbart</p>
         </div>
         <div className="contributer">
-          <img className="contributer" src="/public/img/contributers/Ariela Litvin.jpg" />
+          <img className="contributer" src="../public/img/contributers/Ariela Litvin.jpg" />
           <p>Ariella Litvin</p>
         </div>
         <div className="contributer">
-          <img className="contributer" src="/public/img/contributers/Nerissa Lundquist.jpg" />
+          <img className="contributer" src="../public/img/contributers/Nerissa Lundquist.jpg" />
           <p>Nerissa Lundquist</p>
         </div>
         <div className="contributer">
-          <img className="contributer" src="/public/img/contributers/Stephen Pachucki.jpg" />
+          <img className="contributer" src="../public/img/contributers/Stephen Pachucki.jpg" />
           <p>Stephen Pachucki</p>
         </div>
         <div className="contributer">
-          <img className="contributer" src="/public/img/contributers/Dani Qira.jpeg" />
+          <img className="contributer" src="../public/img/contributers/Dani Qira.jpeg" />
           <p>Daniella Qira</p>
         </div>
         <div className="contributer">
-          <img className="contributer" src="/public/img/contributers/David Van Hise.jpg" />
+          <img className="contributer" src="../public/img/contributers/David Van Hise.jpg" />
           <p>David Van Hise</p>
         </div>
       </div>
