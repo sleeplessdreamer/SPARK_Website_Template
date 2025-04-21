@@ -1,7 +1,7 @@
 export default function Home() {
   return (<>
     <div className="container">
-      <h1 className="center site-title">Refactor Game</h1>
+      <h1 className="center site-title">Refactoria</h1>
       <p className="subtitle center">
         Fall 2024 &rarr; Spring 2025
       </p>
@@ -12,13 +12,14 @@ export default function Home() {
       </div>
       <h2 className="title">About</h2>
       <p>
-      RefactorMaze is a game that focuses on teaching refactoring principles, aimed at college students.
+      Refactoria is a video game that teaches undergraduate and graduate computer science students the concept of code refactoring, or the restructuring of source code to improve speed, maintainability, and readability. The game uses a series of puzzles to give students hands-on experience with a variety of common "code smells" (problems that indicate deeper problems with code).
+
       </p>
       <h2 className="title">Our Mission</h2>
       <p>
       Our mission was to create an interactive game that helps students improve their coding capabilities and practices. 
-      Players make their way through different mazes by refactoring the given code, presented as maze mechanisms, 
-      as they attempt to escape. Each level encapsulates a different puzzle, focusing on specific refactoring practices, 
+      Players cook certain recipes by refactoring the given code, presented as recipe ingredients, stations, and steps, 
+      as they attempt to cook certain recipes. Each level encapsulates a different puzzle, focusing on specific refactoring practices, 
       such as removing code smells or improving algorithms for better performance. 
       </p>
       <p>
@@ -26,9 +27,11 @@ export default function Home() {
       refactoring suggestions. Additionally, code will be tested to ensure that the expected output is still produced.
       </p>
       <p>
-      Players will be scored on how well they refactor the code under the given prompts. A leaderboard will be offered 
-      for players to monitor their progress and see where they stand against other players, encouraging competition. 
-      Furthermore, badges and achievements will be offered based on game progress and special accomplishments. 
+      Players will be scored on how well they refactor the code under the given prompts. In order to teach refactoring concepts in a way that is accessible to any coding language, we developed our own proprietary toy language with the following features:
+        <ul> Tokenizer & Parser </ul>
+        <ul> Full Interpreter </ul>
+        <ul> Java-like Syntax </ul>
+        <ul> In-Game Playback </ul>
       </p>
     </div>
     <div className="container">
