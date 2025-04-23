@@ -15,6 +15,12 @@ export default function Home() {
       Refactoria is a video game that teaches undergraduate and graduate computer science students the concept of code refactoring, or the restructuring of source code to improve speed, maintainability, and readability. The game uses a series of puzzles to give students hands-on experience with a variety of common "code smells" (problems that indicate deeper problems with code).
 
       </p>
+
+      <h2 className="title"> Storyline </h2>
+      <p> 
+      Players play as an expert chef with their sidekick Watson the Whiskbot to refactor Watson's instructions into efficient, readable, and easily maintainable code. While making fun recipes like a fried egg burger, tomato soup, and chicken nuggets, players learn better coding etiquette!
+      
+      </p>
       <h2 className="title">Our Mission</h2>
       <p>
       Our mission was to create an interactive game that helps students improve their coding capabilities and practices. 
