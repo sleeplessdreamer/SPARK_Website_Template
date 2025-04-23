@@ -28,10 +28,13 @@ export default function Home() {
       </p>
       <p>
       Players will be scored on how well they refactor the code under the given prompts. In order to teach refactoring concepts in a way that is accessible to any coding language, we developed our own proprietary toy language with the following features:
-        <ul> Tokenizer & Parser </ul>
-        <ul> Full Interpreter </ul>
-        <ul> Java-like Syntax </ul>
-        <ul> In-Game Playback </ul>
+      <ul>  
+        <l> Tokenizer & Parser </l>
+        <l> Full Interpreter </l>
+        <l> Java-like Syntax </l>
+        <l> In-Game Playback </l>
+      </ul>
+
       </p>
     </div>
     <div className="container">
