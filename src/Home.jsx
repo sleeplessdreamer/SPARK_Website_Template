@@ -12,7 +12,7 @@ export default function Home() {
       </div>
       <h2 className="title">About</h2>
       <p>
-      Refactoria is a video game that teaches undergraduate and graduate computer science students the concept of code refactoring, or the restructuring of source code to improve speed, maintainability, and readability. The game uses a series of puzzles to give students hands-on experience with a variety of common "code smells" (problems that indicate deeper problems with code).
+      Refactoria is a video game that aims to teach university-level computer science students the concepts and skills needed to properly refactor code. The game uses a series of puzzles to give students hands-on experience with a variety of common "code smells" (problems that indicate deeper problems with code).
 
       </p>
 
