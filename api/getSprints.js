@@ -4,6 +4,7 @@
  * @param res Outgoing response
  */
 export default async function handler(req, res) {
+  console.log("FUCK");
   const { SHEETS_KEY, SPRINTS_SHEET } = process.env;
   try {
     const sheetRes = await fetch(`${SPRINTS_SHEET}?key=${SHEETS_KEY}`);
