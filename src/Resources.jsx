@@ -2,8 +2,8 @@ import { useLoaderData } from "react-router-dom";
 import "./Resources.css";
 
 export default function Resources() {
-  const resources = useLoaderData();
   console.log("RESOURCES DATA RESOURCES DATA:", resources);
+  const resources = useLoaderData();
 
   return Object.keys(resources).map((category) =>
     <section key={category}>
