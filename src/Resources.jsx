@@ -3,7 +3,7 @@ import "./Resources.css";
 
 export default function Resources() {
   const resources = useLoaderData();
-  console.log("Resources data:", resources);
+  console.log("RESOURCES DATA RESOURCES DATA:", resources);
 
   return Object.keys(resources).map((category) =>
     <section key={category}>
