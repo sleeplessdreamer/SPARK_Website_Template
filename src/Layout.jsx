@@ -9,7 +9,6 @@ export default function Layout() {
         <li><Link to="/resources">Resources</Link></li>
         <li><Link to="/sprints">Sprints</Link></li>
         <li><Link to="/todo">To-Do</Link></li>
-        <li><Link to="/time">Time Tracking</Link></li>
       </ul>
     </nav>
     <main>
