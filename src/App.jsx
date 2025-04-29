@@ -19,17 +19,14 @@ const router = createBrowserRouter([
       {
         path: 'resources',
         element: <Resources />,
-        loader: () => fetch('/api/getResources')
       },
       {
         path: 'sprints',
         element: <Sprints />,
-        loader: () => fetch('/api/getSprints')
       },
       {
         path: 'todo',
         element: <Todo />,
-        loader: () => fetch('/api/getTodo')
       },
       {
         path: '*',
